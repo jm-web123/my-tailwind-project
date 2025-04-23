@@ -14,17 +14,17 @@
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"  />
           </svg>
           
         
             <u1 class="flex gap-5 text-gray-600 hidden md:flex ">
                 <li> 
-                    <a class="hover:underline  hover:text-black" href="C:\Users\THIS PC\Desktop\FSWD\taiwind.config.js\index.html">Home</a>
+                    <a class="hover:underline  hover:text-black" href="C:\Users\THIS PC\Desktop\FSWD\TailwindCSS\index.html">Home</a>
                 </li>
                 <li>
-                    <a class="hover:underline  hover:text-black" href="C:\Users\THIS PC\Desktop\FSWD\taiwind.config.js\product.html">Products</a>
+                    <a class="hover:underline  hover:text-black" href="C:\Users\THIS PC\Desktop\FSWD\TailwindCSS\product.html">Products</a>
                 </li>
                 <li>
                     <a class="hover:underline hover:text-black" href="#">Contact</a>
@@ -33,6 +33,25 @@
         
 
     </nav>
+    <!--Side Navabar-->
+ <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-100" style="width:50%; height:100vh; right: -50%;">
+    <div class="text-right p-5">
+        <p id="closenav" class="inline cursor-pointer">X</p>
+    </div>
+    <u1 class="flex flex-col gap-10 items-center text-gray-600">
+        <li> 
+            <a class="hover:underline  hover:text-black" href="C:\Users\THIS PC\Desktop\FSWD\TailwindCSS\index.html">Home</a>
+        </li>
+        <li>
+            <a class="hover:underline  hover:text-black" href="C:\Users\THIS PC\Desktop\FSWD\TailwindCSS\product.html">Products</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="#">Contact</a>
+        </li>
+    </u1>
+
+        
+ </section>
 
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -65,5 +84,8 @@
     <p>The standard chunk of lorem ipsum used since the 1500s is reprodused below for those interest</p>
     <p>&copy;2021 Greenday.com</p>
 </section>
+<script src="index.js">
+
+</script>
 </body>
 </html>
