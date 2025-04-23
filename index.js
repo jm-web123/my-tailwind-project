@@ -13,7 +13,7 @@ closenav.addEventListener("click",function () {
     sidenav.style.right="-50%"
 })
 
-//product search functionality
+//product search functionalitys
 var productcontainer = document.getElementById("product-container")
 var productlist = productcontainer.querySelectorAll("div")
 var search = document.getElementById("search")
